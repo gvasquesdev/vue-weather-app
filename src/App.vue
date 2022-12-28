@@ -48,8 +48,6 @@ export default {
   methods: {
     fetchWeather(e) {
       if(e.key == "Enter") {
-        // const res = await fetch(`${this.url_base}weather?q=${this.query}&units=metric&APPID=${this.api_key}`);
-        // this.weather = await res.json();
         fetch(`${this.url_base}weather?q=${this.query}&units=metric&APPID=${this.api_key}`)
         .then(res => {
           return res.json();
