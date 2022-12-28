@@ -1,5 +1,5 @@
 <template>
-  <div id="app" :class="typeof weather.name != 'undefined' && weather.main.temp > 18 ? 'warm' : ''">
+  <div id="app" :class="typeof weather.name != 'undefined' && weather.main.temp > 22 ? 'warm' : ''">
     <main>
       <div class="search-box">
         <input type="text" 
