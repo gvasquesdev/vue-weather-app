@@ -93,6 +93,7 @@ export default {
 
   #app.warm {
     background-image: url('./assets/hot-bg.jpg');
+    transition: 0.4s ease-in;
   }
 
   main {
