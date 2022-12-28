@@ -90,7 +90,7 @@ export default {
     background-image: url('./assets/cold-bg.jpg');
     background-size: cover;
     background-position: bottom;
-    transition: 0.4s;
+    transition: 0.4s ease-in;
   }
 
   #app.warm {
